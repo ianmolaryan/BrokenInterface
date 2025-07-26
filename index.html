@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BROKEN//BEAUTIFUL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Accessibility toggle -->
+    <button id="glitch-toggle" class="glitch-toggle" aria-label="Toggle glitch effects">
+        <span class="toggle-text">REDUCE CHAOS</span>
+    </button>
+
+    <!-- Background noise -->
+    <div class="noise-overlay"></div>
+    
+    <!-- Glitch fragments -->
+    <div class="glitch-fragments"></div>
+
+    <header class="header">
+        <nav class="nav" data-glitch-target>
+            <div class="nav-item">HOME</div>
+            <div class="nav-item">WORK</div>
+            <div class="nav-item">ABOUT</div>
+            <div class="nav-item">CONTACT</div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <h1 class="hero-title" data-glitch-target data-text="DIGITAL DECAY">
+                <span class="glitch-text">DIGITAL</span>
+                <span class="glitch-text">DECAY</span>
+            </h1>
+            <p class="hero-subtitle" data-glitch-target>
+                Where perfection goes to die beautifully
+            </p>
+            <button class="cta-button" data-glitch-target>
+                ENTER THE VOID
+            </button>
+        </section>
+
+        <section class="gallery">
+            <div class="gallery-item">
+                <canvas class="glitch-canvas" width="300" height="200"></canvas>
+                <div class="item-overlay">
+                    <h3 data-glitch-target>PROJECT ALPHA</h3>
+                    <p>Deconstructed reality</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <canvas class="glitch-canvas" width="300" height="200"></canvas>
+                <div class="item-overlay">
+                    <h3 data-glitch-target>BETA FRAGMENTS</h3>
+                    <p>Broken by design</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <canvas class="glitch-canvas" width="300" height="200"></canvas>
+                <div class="item-overlay">
+                    <h3 data-glitch-target>GAMMA NOISE</h3>
+                    <p>Beautiful corruption</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="text-block" data-glitch-target>
+                <h2>EMBRACING IMPERFECTION</h2>
+                <p>In a world obsessed with pixel-perfect interfaces, we choose chaos. Every glitch tells a story, every distortion reveals truth hidden beneath the surface of digital perfection.</p>
+                <p>This is not destruction—this is liberation from the tyranny of the flawless.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content" data-glitch-target>
+            <p>&copy; 2024 BROKEN//BEAUTIFUL - Imperfection as art</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
